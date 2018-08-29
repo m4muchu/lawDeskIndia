@@ -79,6 +79,14 @@
   padding-top: 30px;
 }
 
+.row-1 .card {
+  height: 380px;
+}
+
+.row-2 .card {
+  height: 380px;
+}
+
 .row-head p {
   padding-top: 20px;
 }

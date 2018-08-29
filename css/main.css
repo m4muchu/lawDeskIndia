@@ -29,6 +29,7 @@
 } */
 
 @media (max-width: 600px) {
+  /* if width below 600 it will happen */
   .main-header {
     height: 50vh;
   }
@@ -134,6 +135,12 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+@media (max-width: 1133px) {
+  .section-personal .personal-overlay a {
+    margin-top: 0px !important;
+  }
 }
 
 .section-personal .personal-overlay h4 {

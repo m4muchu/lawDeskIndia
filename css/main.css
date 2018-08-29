@@ -79,6 +79,10 @@
   padding-top: 30px;
 }
 
+.card {
+  background: #fff;
+}
+
 .row-1 .card {
   height: 380px;
 }

@@ -1,807 +1,908 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Import Google Icon Font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <!-- Import materialize.css -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans"
+      rel="stylesheet"
+    />
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LawDeskIndia</title>
+  </head>
 
-<head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <body id="home" class="scrollspy grey lighten-4">
+    <header class="main-header">
+      <div class="primary-overlay">
+        <div class="navbar-fixed">
+          <nav class="transparent">
+            <div class="container">
+              <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">LawDeskIndia</a>
+                <a class="button-collapse" data-activates="mobile-nav">
+                  <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#service">Service</a></li>
+                  <li><a href="#team">Team</a></li>
+                  <li><a href="#clients">Clients</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LawDeskIndia</title>
-</head>
+      <!-- show case -->
 
-<body id="home" class="scrollspy grey lighten-4">
+      <div class="showcase container">
+        <div class="row">
+          <div class="col s12 main-text">
+            <h4>
+              What we can do? <span id="typed" class="red-text darken-6"></span>
+            </h4>
 
-  <header class="main-header">
-    <div class="primary-overlay">
-      <div class="navbar-fixed">
-        <nav class="transparent">
+            <h1>Welcome to Law Desk India</h1>
+            <p class="flow-text" style="font-family: 'PT Sans', sans-serif;">
+              LAW DESK INDIA is a well recognized, reputed, legalistic
+              approached, skilled and professionally managed law firm based in
+              Kochi, Kerala, India.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- side:nav -->
+    <ul class="side-nav" id="mobile-nav">
+      <h4 class="black-text center">LawDeskIndia</h4>
+      <li><a href="" class="divider"></a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#service">service</a></li>
+      <li><a href="#team">team</a></li>
+      <li><a href="#clients">clients</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+
+    <!-- section about -->
+
+    <section class="section section-about scrollspy" id="about">
+      <div class="row">
+        <!--
+          <div class="col s12 m12">
+            <img src="img/about.jpg" class="responsive-img">
+          </div>
+        -->
+        <div class="col s12 m12">
           <div class="container">
-            <div class="nav-wrapper">
-              <a href="index.html" class="brand-logo">LawDeskIndia</a>
-              <a class="button-collapse" data-activates="mobile-nav">
-                <i class="material-icons">menu</i>
-              </a>
-              <ul class="right hide-on-med-and-down">
+            <h4 class="center">
+              <b>ABOUT</b> <span class="red-text">US</span>
+            </h4>
+
+            <p
+              class="flow-text center about-2"
+              style="font-family: 'PT Sans', sans-serif;"
+            >
+              LAW DESK INDIA is a FULL SERVICE LAW FIRM and works together with
+              many law firms in India and Middle East in different jurisdictions
+              to facilitate and cater its national and multinational clients
+              with immaculate consistent and impeccable quality legal services
+              in all main areas of Indian and Middle East Laws.
+            </p>
+
+            <p
+              class="flow-text center about-1"
+              style="font-family: 'PT Sans', sans-serif;"
+            >
+              Our exposures at the Commercial Practice and a Developed
+              Litigation Practice have equipped us with sufficient skill to
+              learn and apply the entire branches of law. We have good team
+              player with a high degree of motivation and discipline.
+            </p>
+
+            <!--
+              <ul class="flex-box">
                 <li>
-                  <a href="#home">Home</a>
+                  <i class="material-icons medium left">account_balance</i>
+                  <span class="flow-text nav-text">Your Rights</span>
                 </li>
                 <li>
-                  <a href="#about">About</a>
+
+                  <i class="material-icons medium left">fingerprint</i>
+                  <span class="flow-text"> We Fight for Justice</span>
                 </li>
                 <li>
-                  <a href="#service">Service</a>
-                </li>
-                <li>
-                  <a href="#team">Team</a>
-                </li>
-                <li>
-                  <a href="#clients">Clients</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
+                  <i class="material-icons medium left">pan_tool</i>
+                  <span class="flow-text">Medical Treatment</span>
                 </li>
               </ul>
+            -->
+
+            <!--
+              <h5 class="flow-text">
+                <i class="material-icons medium left">account_balance</i>Protect Your Rights</h5>
+
+              <h5 class="flow-text">
+                <i class="material-icons medium left">fingerprint</i>
+                We Fight for Justice</h5>
+              <h5 class="flow-text">
+                <i class="material-icons medium left">pan_tool</i>Medical Treatment</h5>
+            -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section: icons-about -->
+
+    <section class="section section-icons center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m3">
+            <div class="card-panel red lighten-1">
+              <i class="fa fa-users fa-5x white-text"></i>
+              <h1 class="white-text count">999</h1>
+              <p class="white-text" style="font-family: 'PT Sans', sans-serif;">
+                Trusted Clients
+              </p>
             </div>
           </div>
-        </nav>
+          <div class="col s12 m3">
+            <div class="card-panel red lighten-1">
+              <i class="fa fa-thumbs-up fa-5x white-text"></i>
+              <h1 class="white-text count">85</h1>
+              <p class="white-text" style="font-family: 'PT Sans', sans-serif;">
+                Success Caces
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card-panel red lighten-1">
+              <i class="fa fa-laptop fa-5x white-text"></i>
+              <h1 class="white-text count">1001</h1>
+              <p class="white-text" style="font-family: 'PT Sans', sans-serif;">
+                Case Study
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card-panel red lighten-1">
+              <i class="fa fa-trophy fa-5x white-text"></i>
+              <h1 class="white-text count">59</h1>
+              <p class="white-text" style="font-family: 'PT Sans', sans-serif;">
+                Awards
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- show case -->
+    <!-- section: about: practise area -->
 
-    <div class="showcase container">
+    <section class="section section-practise center">
+      <div class="container">
+        <div class="row row-head">
+          <div class="col s12">
+            <h4><b>PRACTICE</b> <span class="red-text">AREAS</span></h4>
+            <p class="flow-text" style="font-family: 'PT Sans', sans-serif;">
+              LAW DESK INDIA is a well recognized, reputed, legalistic
+              approached, skilled and professionally managed law firm based in
+              Kochi, kerala, India. Our exposures at the Commercial Practice and
+              a Developed Litigation Practice have equipped us with sufficient
+              skill to learn and apply the entire branches of law. However, we
+              have quote below some of our area of practice.
+            </p>
+          </div>
+        </div>
+
+        <!-- Row 1 practise area -->
+
+        <div class="row row-1">
+          <div class="col s12 m3">
+            <div class="card hvr-grow modal-trigger" href="#modal1">
+              <div class="card-image"><img src="img/p1.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Divorse Law</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, repudiandae!
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card hvr-grow modal-trigger" href="#modal2">
+              <div class="card-image"><img src="img/p4.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Drug Law</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, repudiandae!
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card hvr-grow modal-trigger" href="#modal3">
+              <div class="card-image"><img src="img/p2.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Litigation</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, repudiandae!
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card hvr-grow modal-trigger" href="#modal4">
+              <div class="card-image"><img src="img/p3.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Accident Law</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, repudiandae!
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+
+        <!-- Row2 of practise area -->
+        <div class="row row-2">
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><img src="img/p5.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Personal Law</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, repudiandae!
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><img src="img/p6.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Criminal Law</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><img src="img/p7.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Cyber Laws</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, repudiandae!
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><img src="img/p8.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Family Laws</h5>
+              <div
+                class="card-content"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, repudiandae!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- modal -->
+
+        <div id="modal1" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa id eum et nostrum fugiat atque laborum tempora doloremque dolores libero aperiam, rerum quod amet accusamus corporis, rem tenetur tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi nobis odio consequatur exercitationem provident sapiente eos officiis. Reprehenderit, nihil sapiente exercitationem autem aut voluptatem sed, harum repudiandae at modi quo molestiae consequuntur in reiciendis! Dignissimos exercitationem, blanditiis totam modi ut incidunt, hic accusamus delectus corporis tenetur numquam repudiandae neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a praesentium, ducimus ullam exercitationem magnam asperiores. Nobis neque tenetur perspiciatis quos beatae odit veniam porro possimus amet ab debitis iusto, necessitatibus vero reprehenderit maiores eum itaque nulla accusantium iste. Reprehenderit quam dolorum fuga sint minima excepturi perspiciatis a, recusandae molestias exercitationem optio aut architecto esse ducimus possimus, laboriosam facere nesciunt inventore hic suscipit eius cum ex, nisi at. Consectetur inventore explicabo commodi? Nihil odit voluptas vero, hic veritatis ab nostrum, quidem debitis corrupti, quo natus repudiandae numquam. Amet eius fuga, sint eligendi doloribus laboriosam nulla sed vel nemo deleniti blanditiis nihil ex. Rem, fugit dicta. Voluptas maiores aliquam blanditiis nisi ab provident temporibus eveniet, ratione et dolore obcaecati assumenda aut nesciunt, perspiciatis nihil odit, veniam dignissimos odio consequatur deserunt iste! Reprehenderit, ullam. Porro itaque magni quia consectetur sit unde aut repudiandae. Nesciunt error aperiam eveniet quaerat aliquam eligendi, aliquid saepe, quo officiis exercitationem voluptatem ratione consectetur commodi, asperiores sapiente porro. Accusantium minus aspernatur architecto ipsam voluptas expedita numquam, repellat doloremque tenetur eaque facilis pariatur sit, enim natus corporis quam maxime! Iure quam reiciendis repellat quidem quasi deserunt recusandae nihil a! Inventore dolores nisi cum iusto eaque a natus perferendis adipisci?</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">OK</a>
+          </div>
+        </div>
+
+        <div id="modal2" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa id eum et nostrum fugiat atque laborum tempora doloremque dolores libero aperiam, rerum quod amet accusamus corporis, rem tenetur tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi nobis odio consequatur exercitationem provident sapiente eos officiis. Reprehenderit, nihil sapiente exercitationem autem aut voluptatem sed, harum repudiandae at modi quo molestiae consequuntur in reiciendis! Dignissimos exercitationem, blanditiis totam modi ut incidunt, hic accusamus delectus corporis tenetur numquam repudiandae neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a praesentium, ducimus ullam exercitationem magnam asperiores. Nobis neque tenetur perspiciatis quos beatae odit veniam porro possimus amet ab debitis iusto, necessitatibus vero reprehenderit maiores eum itaque nulla accusantium iste. Reprehenderit quam dolorum fuga sint minima excepturi perspiciatis a, recusandae molestias exercitationem optio aut architecto esse ducimus possimus, laboriosam facere nesciunt inventore hic suscipit eius cum ex, nisi at. Consectetur inventore explicabo commodi? Nihil odit voluptas vero, hic veritatis ab nostrum, quidem debitis corrupti, quo natus repudiandae numquam. Amet eius fuga, sint eligendi doloribus laboriosam nulla sed vel nemo deleniti blanditiis nihil ex. Rem, fugit dicta. Voluptas maiores aliquam blanditiis nisi ab provident temporibus eveniet, ratione et dolore obcaecati assumenda aut nesciunt, perspiciatis nihil odit, veniam dignissimos odio consequatur deserunt iste! Reprehenderit, ullam. Porro itaque magni quia consectetur sit unde aut repudiandae. Nesciunt error aperiam eveniet quaerat aliquam eligendi, aliquid saepe, quo officiis exercitationem voluptatem ratione consectetur commodi, asperiores sapiente porro. Accusantium minus aspernatur architecto ipsam voluptas expedita numquam, repellat doloremque tenetur eaque facilis pariatur sit, enim natus corporis quam maxime! Iure quam reiciendis repellat quidem quasi deserunt recusandae nihil a! Inventore dolores nisi cum iusto eaque a natus perferendis adipisci?</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">OK</a>
+          </div>
+        </div>
+
+        <div id="modal3" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa id eum et nostrum fugiat atque laborum tempora doloremque dolores libero aperiam, rerum quod amet accusamus corporis, rem tenetur tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi nobis odio consequatur exercitationem provident sapiente eos officiis. Reprehenderit, nihil sapiente exercitationem autem aut voluptatem sed, harum repudiandae at modi quo molestiae consequuntur in reiciendis! Dignissimos exercitationem, blanditiis totam modi ut incidunt, hic accusamus delectus corporis tenetur numquam repudiandae neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a praesentium, ducimus ullam exercitationem magnam asperiores. Nobis neque tenetur perspiciatis quos beatae odit veniam porro possimus amet ab debitis iusto, necessitatibus vero reprehenderit maiores eum itaque nulla accusantium iste. Reprehenderit quam dolorum fuga sint minima excepturi perspiciatis a, recusandae molestias exercitationem optio aut architecto esse ducimus possimus, laboriosam facere nesciunt inventore hic suscipit eius cum ex, nisi at. Consectetur inventore explicabo commodi? Nihil odit voluptas vero, hic veritatis ab nostrum, quidem debitis corrupti, quo natus repudiandae numquam. Amet eius fuga, sint eligendi doloribus laboriosam nulla sed vel nemo deleniti blanditiis nihil ex. Rem, fugit dicta. Voluptas maiores aliquam blanditiis nisi ab provident temporibus eveniet, ratione et dolore obcaecati assumenda aut nesciunt, perspiciatis nihil odit, veniam dignissimos odio consequatur deserunt iste! Reprehenderit, ullam. Porro itaque magni quia consectetur sit unde aut repudiandae. Nesciunt error aperiam eveniet quaerat aliquam eligendi, aliquid saepe, quo officiis exercitationem voluptatem ratione consectetur commodi, asperiores sapiente porro. Accusantium minus aspernatur architecto ipsam voluptas expedita numquam, repellat doloremque tenetur eaque facilis pariatur sit, enim natus corporis quam maxime! Iure quam reiciendis repellat quidem quasi deserunt recusandae nihil a! Inventore dolores nisi cum iusto eaque a natus perferendis adipisci?</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">OK</a>
+          </div>
+        </div>
+
+        <div id="modal4" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur culpa id eum et nostrum fugiat atque laborum tempora doloremque dolores libero aperiam, rerum quod amet accusamus corporis, rem tenetur tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi nobis odio consequatur exercitationem provident sapiente eos officiis. Reprehenderit, nihil sapiente exercitationem autem aut voluptatem sed, harum repudiandae at modi quo molestiae consequuntur in reiciendis! Dignissimos exercitationem, blanditiis totam modi ut incidunt, hic accusamus delectus corporis tenetur numquam repudiandae neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a praesentium, ducimus ullam exercitationem magnam asperiores. Nobis neque tenetur perspiciatis quos beatae odit veniam porro possimus amet ab debitis iusto, necessitatibus vero reprehenderit maiores eum itaque nulla accusantium iste. Reprehenderit quam dolorum fuga sint minima excepturi perspiciatis a, recusandae molestias exercitationem optio aut architecto esse ducimus possimus, laboriosam facere nesciunt inventore hic suscipit eius cum ex, nisi at. Consectetur inventore explicabo commodi? Nihil odit voluptas vero, hic veritatis ab nostrum, quidem debitis corrupti, quo natus repudiandae numquam. Amet eius fuga, sint eligendi doloribus laboriosam nulla sed vel nemo deleniti blanditiis nihil ex. Rem, fugit dicta. Voluptas maiores aliquam blanditiis nisi ab provident temporibus eveniet, ratione et dolore obcaecati assumenda aut nesciunt, perspiciatis nihil odit, veniam dignissimos odio consequatur deserunt iste! Reprehenderit, ullam. Porro itaque magni quia consectetur sit unde aut repudiandae. Nesciunt error aperiam eveniet quaerat aliquam eligendi, aliquid saepe, quo officiis exercitationem voluptatem ratione consectetur commodi, asperiores sapiente porro. Accusantium minus aspernatur architecto ipsam voluptas expedita numquam, repellat doloremque tenetur eaque facilis pariatur sit, enim natus corporis quam maxime! Iure quam reiciendis repellat quidem quasi deserunt recusandae nihil a! Inventore dolores nisi cum iusto eaque a natus perferendis adipisci?</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">OK</a>
+          </div>
+        </div>
+                
+
+    <!-- personal injury lawyers -->
+
+    <section class="section section-personal center">
       <div class="row">
-        <div class="col s12 main-text">
-          <h4>What we can do?
-            <span id="typed" class="red-text darken-6"></span>
-          </h4>
-
-          <h1>Welcome to Law Desk India
-          </h1>
-          <p class="flow-text">LAW DESK INDIA is a well recognized, reputed, legalistic approached, skilled and professionally
-            managed law firm based in Kochi, Kerala, India.</p>
-        </div>
-      </div>
-    </div>
-
-  </header>
-
-  <!-- side:nav -->
-  <ul class="side-nav" id="mobile-nav">
-    <h4 class="black-text center">LawDeskIndia</h4>
-    <li>
-      <a href="" class="divider"></a>
-    </li>
-    <li>
-      <a href="#home">Home</a>
-    </li>
-    <li>
-      <a href="#about">About</a>
-    </li>
-    <li>
-      <a href="#service">service</a>
-    </li>
-    <li>
-      <a href="#team">team</a>
-    </li>
-    <li>
-      <a href="#clients">clients</a>
-    </li>
-    <li>
-      <a href="#contact">contact</a>
-    </li>
-
-  </ul>
-
-  <!-- section about -->
-
-  <section class="section section-about scrollspy" id="about">
-    <div class="row">
-      <!-- <div class="col s12 m12">
-        <img src="img/about.jpg" class="responsive-img">
-      </div> -->
-      <div class="col s12 m12">
-        <div class="container">
-          <h4 class="center">
-            <b>ABOUT</b>
-            <span class="red-text">US</span>
-          </h4>
-
-
-          <p class="flow-text center about-2">LAW DESK INDIA is a FULL SERVICE LAW FIRM and works together with many law
-            firms in India and Middle East in different jurisdictions to facilitate and cater its national and multinational
-            clients with immaculate consistent and impeccable quality legal services in all main areas of Indian and Middle
-            East Laws.</p>
-
-          <p class="flow-text center about-1">Our exposures at the Commercial Practice and a Developed Litigation Practice
-            have equipped us with sufficient skill to learn and apply the entire branches of law. We have good team player
-            with a high degree of motivation and discipline.
-          </p>
-
-
-          <!-- <ul class="flex-box">
-            <li>
-              <i class="material-icons medium left">account_balance</i>
-              <span class="flow-text nav-text">Your Rights</span>
-            </li>
-            <li>
-
-              <i class="material-icons medium left">fingerprint</i>
-              <span class="flow-text"> We Fight for Justice</span>
-            </li>
-            <li>
-              <i class="material-icons medium left">pan_tool</i>
-              <span class="flow-text">Medical Treatment</span>
-            </li>
-          </ul> -->
-
-          <!-- <h5 class="flow-text">
-          <i class="material-icons medium left">account_balance</i>Protect Your Rights</h5>
-
-        <h5 class="flow-text">
-          <i class="material-icons medium left">fingerprint</i>
-          We Fight for Justice</h5>
-        <h5 class="flow-text">
-          <i class="material-icons medium left">pan_tool</i>Medical Treatment</h5> -->
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section: icons-about -->
-
-  <section class="section section-icons center">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 m3">
-          <div class="card-panel red lighten-1">
-            <i class="fa fa-users fa-5x white-text"></i>
-            <h1 class="white-text count">999</h1>
-            <p class="white-text">Trusted Clients</p>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel red lighten-1">
-            <i class="fa fa-thumbs-up fa-5x white-text"></i>
-            <h1 class="white-text count">85</h1>
-            <p class="white-text">Success Caces</p>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel red lighten-1">
-            <i class="fa fa-laptop fa-5x white-text"></i>
-            <h1 class="white-text count">1001</h1>
-            <p class="white-text">Case Study</p>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel red lighten-1">
-            <i class="fa fa-trophy fa-5x white-text"></i>
-            <h1 class="white-text count">59</h1>
-            <p class="white-text">Awards</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section: about: practise area -->
-
-  <section class="section section-practise center">
-    <div class="container">
-      <div class="row row-head">
         <div class="col s12">
-          <h4>
-            <b>PRACTICE</b>
-            <span class="red-text">AREAS</span>
-          </h4>
-          <p class="flow-text">LAW DESK INDIA is a well recognized, reputed, legalistic approached, skilled and professionally
-            managed law firm based in Kochi, kerala, India. Our exposures at the Commercial Practice and a Developed Litigation
-            Practice have equipped us with sufficient skill to learn and apply the entire branches of law. However, we have
-            quote below some of our area of practice.</p>
-        </div>
-      </div>
+          <div class="background-personal">
+            <div class="personal-overlay">
+              <h4 class="white-text"><b>PERSONAL INJURY LAWERS</b></h4>
+              <p
+                class="flow-text white-text"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus maiores sed fugit blanditiis eaque, sint maxime. Hic
+                deleniti voluptatibus repellendus! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Incidunt, nisi. Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Quam debitis quidem quis!
+                Voluptate libero ut nam voluptates rerum, ipsam vero!
+              </p>
 
-      <!-- Row 1 practise area -->
-
-      <div class="row row-1">
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p1.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Divorse Law</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, repudiandae!
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p4.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Drug Law</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, repudiandae!
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p2.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Litigation</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, repudiandae!
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p3.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Accident Law</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, repudiandae!
+              <a
+                href="#!"
+                class="btn-large waves-effect waves-light red lighten-1"
+                >Read More
+              </a>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Row2 of practise area -->
-      <div class="row row-2">
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p5.jpg" alt="">
+    <!-- section: services -->
+
+    <section class="section section-services center scrollspy" id="service">
+      <div class="container">
+        <h4><b>OUR</b> <span class="red-text">SERVICES</span></h4>
+        <p class="flow-text" style="font-family: 'PT Sans', sans-serif;">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
+          neque provident sapiente vitae ullam, aliquam quas amet fuga odio
+          magnam!
+        </p>
+
+        <div class="row row-1">
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><i class="fa fa-car fa-5x"></i></div>
+              <span class="card-title red-text lighten-1">Car Accident</span>
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
             </div>
-            <h5 class="card-title red-text">Personal Law</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, repudiandae!
+          </div>
+
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><i class="fa fa-brain fa-5x"></i></div>
+              <span class="card-title red-text lighten-1">Brain Injury</span>
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><i class="fas fa-lock fa-5x"></i></div>
+              <span class="card-title red-text lighten-1">Security Law</span>
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><i class="fas fa-heart fa-5x"></i></div>
+              <span class="card-title red-text lighten-1">Personal Injury</span>
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
             </div>
           </div>
         </div>
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p6.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Criminal Law</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p7.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Cyber Laws</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, repudiandae!
+
+        <div class="row row-2">
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image"><i class="fas fa-male fa-5x"></i></div>
+              <span class="card-title red-text lighten-1"
+                >Criminal Defence</span
+              >
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/p8.jpg" alt="">
+
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image">
+                <i class="fas fa-motorcycle fa-5x "></i>
+              </div>
+              <span class="card-title red-text lighten-1"
+                >Motorcycle Accident</span
+              >
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
             </div>
-            <h5 class="card-title red-text">Family Laws</h5>
-            <div class="card-content">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, repudiandae!
+          </div>
+
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image">
+                <i class="fas fa-trademark fa-5x "></i>
+              </div>
+              <span class="card-title red-text lighten-1"
+                >Trademark Watching</span
+              >
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m3">
+            <div class="card hvr-grow">
+              <div class="card-image">
+                <i class="fas fa-address-card fa-5x "></i>
+              </div>
+              <span class="card-title red-text lighten-1"
+                >Licensing of Trademark</span
+              >
+              <div
+                class="card-content grey-text darken-5"
+                style="font-family: 'PT Sans', sans-serif;"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reprehenderit, minima.
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- section : team -->
 
-  <!-- personal injury lawyers -->
-
-  <section class="section section-personal center">
-    <div class="row">
-      <div class="col s12">
-        <div class="background-personal">
-          <div class="personal-overlay">
-            <h4 class="white-text">
-              <b>PERSONAL INJURY LAWERS</b>
-            </h4>
-            <p class="flow-text white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maiores
-              sed fugit blanditiis eaque, sint maxime. Hic deleniti voluptatibus repellendus! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Incidunt, nisi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
-              debitis quidem quis! Voluptate libero ut nam voluptates rerum, ipsam vero!</p>
-
-            <a href="#!" class="btn-large waves-effect waves-light red lighten-1">Read More </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- section: services -->
-
-  <section class="section section-services center scrollspy" id="service">
-    <div class="container">
-      <h4>
-        <b>OUR</b>
-        <span class="red-text">SERVICES</span>
+    <div class="section-team grey lighten-3 center scrollspy" id="team">
+      <h4 class="section-team-header">
+        <b>OUR ATTORNEYS</b> <span class="red-text">TEAM</span>
       </h4>
-      <p class="flow-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur neque provident sapiente
-        vitae ullam, aliquam quas amet fuga odio magnam!</p>
+      <p class="flow-text" style="font-family: 'PT Sans', sans-serif;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis
+        incidunt, ea provident officia nisi error. Veniam quidem officia
+        corrupti!
+      </p>
 
-      <div class="row row-1">
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fa fa-car fa-5x"></i>
-            </div>
-            <span class="card-title red-text lighten-1">Car Accident</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
+      <div class="row personal-row-1">
+        <div class="container">
+          <div class="col s12 m4 l4">
+            <div class="card hvr-grow">
+              <div class="card-image"><img src="img/t1.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Muzammil</h5>
+              <div class="card-content"><span>Personal Lawer</span></div>
+              <div class="card-action">
+                <ul>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-facebook-square fa-3x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-twitter-square fa-3x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fa fa-brain fa-5x"></i>
-            </div>
-            <span class="card-title red-text lighten-1">Brain Injury</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
+          <div class="col s12 m4 l4">
+            <div class="card hvr-grow">
+              <div class="card-image"><img src="img/t2.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Fazil</h5>
+              <div class="card-content"><span>Criminal Lawer</span></div>
+              <div class="card-action">
+                <ul>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-facebook-square fa-3x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-twitter-square fa-3x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fas fa-lock fa-5x"></i>
-            </div>
-            <span class="card-title red-text lighten-1">Security Law</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fas fa-heart fa-5x"></i>
-            </div>
-            <span class="card-title red-text lighten-1">Personal Injury</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row row-2">
-
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fas fa-male fa-5x"></i>
-            </div>
-            <span class="card-title red-text lighten-1">Criminal Defence</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fas fa-motorcycle fa-5x "></i>
-            </div>
-            <span class="card-title red-text lighten-1">Motorcycle Accident</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fas fa-trademark fa-5x "></i>
-            </div>
-            <span class="card-title red-text lighten-1">Trademark Watching</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m3">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <i class="fas fa-address-card fa-5x "></i>
-            </div>
-            <span class="card-title red-text lighten-1">Licensing of Trademark</span>
-            <div class="card-content grey-text darken-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, minima.
+          <div class="col s12 m4 l4">
+            <div class="card hvr-grow">
+              <div class="card-image"><img src="img/t3.jpg" alt="" /></div>
+              <h5 class="card-title red-text">Rashid</h5>
+              <div class="card-content"><span>Family Lawer</span></div>
+              <div class="card-action">
+                <ul>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-facebook-square fa-3x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-twitter-square fa-3x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="black-text">
+                      <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- section : team -->
+    <!-- section: testimonial -->
 
-
-  <div class="section-team grey lighten-3 center scrollspy" id="team">
-    <h4 class="section-team-header">
-      <b>OUR ATTORNEYS</b>
-      <span class="red-text">TEAM</span>
-    </h4>
-    <p class="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis incidunt, ea provident officia
-      nisi error. Veniam quidem officia corrupti!</p>
-
-    <div class="row personal-row-1">
-      <div class="container">
-
-        <div class="col s12 m4 l4">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/t1.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Muzammil </h5>
-            <div class="card-content">
-
-              <span>Personal Lawer</span>
-            </div>
-            <div class="card-action">
-              <ul>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-facebook-square fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-twitter-square fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-linkedin fa-3x"></i>
-                  </a>
-
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4 l4">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/t2.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Fazil</h5>
-            <div class="card-content">
-
-              <span>Criminal Lawer</span>
-            </div>
-            <div class="card-action">
-              <ul>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-facebook-square fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-twitter-square fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-linkedin fa-3x"></i>
-                  </a>
-
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col s12 m4 l4">
-          <div class="card hvr-grow">
-            <div class="card-image">
-              <img src="img/t3.jpg" alt="">
-            </div>
-            <h5 class="card-title red-text">Rashid</h5>
-            <div class="card-content">
-
-              <span>Family Lawer</span>
-            </div>
-            <div class="card-action">
-              <ul>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-facebook-square fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-twitter-square fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="black-text">
-                    <i class="fab fa-linkedin fa-3x"></i>
-                  </a>
-
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- section: testimonial -->
-
-
-  <section class="section section-testimonial center scrollspy" id="clients">
-    <div class="row">
-      <div class="col s12">
-        <div class="background-testimonial">
-          <div class="personal-overlay">
-            <h4 class="white-text testimonial-head">
-              TESTIMONIALS
-            </h4>
-            <p class="white-text testimonial-sub-head">See What Our Clients Saying!</p>
-
-            <div class="carousel carousel-slider">
-              <div class="carousel-item" href="#one!">
-                <p class="flow-text center white-text clients-comment">
-                  <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias tenetur cum quis quidem facere
-                    asperiores, aut nobis itaque velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad
-                    sed,
-                  </i>
-                </p>
-                <h4 class="white-text">Muzammil</h4>
-                <p class="white-text">CEO - Way2shop</p>
-
-              </div>
-
-              <div class="carousel-item" href="#two!">
-                <p class="flow-text center white-text clients-comment">
-                  <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias tenetur cum quis quidem facere
-                    asperiores, aut nobis itaque velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad
-                    sed,
-                  </i>
-                </p>
-                <h4 class="white-text">Nizam</h4>
-                <p class="white-text">CEO - Pentapoll</p>
-
-              </div>
-
-              <div class="carousel-item" href="#two!">
-                <p class="flow-text center white-text clients-comment">
-                  <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias tenetur cum quis quidem facere
-                    asperiores, aut nobis itaque velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad
-                    sed,
-                  </i>
-                </p>
-                <h4 class="white-text">Nihal Karadan</h4>
-                <p class="white-text">CEO - Cutiecart</p>
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- section: contact -->
-  <section id="contact" class="section section-contact center scrollspy">
-    <div id="googlemap"></div>
-    <div class="container">
+    <section class="section section-testimonial center scrollspy" id="clients">
       <div class="row">
-        <div class="col s12 m6 offset-m6">
-          <div class="card-panel z-depth-5">
-            <h4>Contact Us</h4>
-            <div class="input-field">
-              <input type="text" id="name" placeholder="Name">
-              <label for="name">Name</label>
+        <div class="col s12">
+          <div class="background-testimonial">
+            <div class="personal-overlay">
+              <h4 class="white-text testimonial-head">TESTIMONIALS</h4>
+              <p class="white-text testimonial-sub-head">
+                See What Our Clients Saying!
+              </p>
+
+              <div class="carousel carousel-slider">
+                <div class="carousel-item" href="#one!">
+                  <p
+                    class="flow-text center white-text clients-comment"
+                    style="font-family: 'PT Sans', sans-serif;"
+                  >
+                    <i
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Saepe molestias tenetur cum quis quidem facere asperiores,
+                      aut nobis itaque velit! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Nemo ad sed,
+                    </i>
+                  </p>
+                  <h4 class="white-text">Muzammil</h4>
+                  <p class="white-text">CEO - Way2shop</p>
+                </div>
+
+                <div class="carousel-item" href="#two!">
+                  <p
+                    class="flow-text center white-text clients-comment"
+                    style="font-family: 'PT Sans', sans-serif;"
+                  >
+                    <i
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Saepe molestias tenetur cum quis quidem facere asperiores,
+                      aut nobis itaque velit! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Nemo ad sed,
+                    </i>
+                  </p>
+                  <h4 class="white-text">Nizam</h4>
+                  <p class="white-text">CEO - Pentapoll</p>
+                </div>
+
+                <div class="carousel-item" href="#two!">
+                  <p
+                    class="flow-text center white-text clients-comment"
+                    style="font-family: 'PT Sans', sans-serif;"
+                  >
+                    <i
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Saepe molestias tenetur cum quis quidem facere asperiores,
+                      aut nobis itaque velit! Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Nemo ad sed,
+                    </i>
+                  </p>
+                  <h4 class="white-text">Nihal Karadan</h4>
+                  <p class="white-text">CEO - Cutiecart</p>
+                </div>
+              </div>
             </div>
-            <div class="input-field">
-              <input type="email" id="email" placeholder="Email">
-              <label for="email">Email</label>
-            </div>
-            <div class="input-field">
-              <input type="text" id="phone" placeholder="Phone Number">
-              <label for="phone">Phone</label>
-            </div>
-            <div class="input-field">
-              <textarea class="materialize-textarea" id="message" placeholder="Message"></textarea>
-              <label for="message">Legal Question</label>
-            </div>
-            <input type="submit" value="Submit" class="btn blue-grey">
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-
-  <!-- section : footer -->
-
-  <footer class="page-footer blue-grey darken-1">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5>Location</h5>
-          <p>LawDeskIndia</p>
-          <p>303,Third Level,KHCAA Chamber Kerala High Court Compound,Ernakulam,Kochi,Kerala,India,Pin-682 031</p>
-          <p>Email : mail@lawdeskindia.com</p>
-          <p>Phone : +91 484 2985303</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li>
-              <a href="#home" class="white-text">Home</a>
-            </li>
-            <li>
-              <a href="#about" class="white-text">About</a>
-            </li>
-            <li>
-              <a href="#service" class="white-text">Service</a>
-            </li>
-            <li>
-              <a href="#team" class="white-text">Team</a>
-            </li>
-            <li>
-              <a href="#clients" class="white-text">Clients</a>
-            </li>
-            <li>
-              <a href="#contact" class="white-text">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright blue-grey darrken-4">
+    <!-- section: contact -->
+    <section id="contact" class="section section-contact center scrollspy">
       <div class="container">
-        LawDeskIndia © 2018
-        <a class="grey-text text-lighten-4 right scrollspy" href="#home">
-          <i class="material-icons left">keyboard_arrow_up</i> Back To Top
-        </a>
+        <div class="row">
+          <div class="col s12 m6 offset-m6">
+            <div class="card-panel z-depth-5">
+              <h4>Contact Us</h4>
+              <div class="input-field">
+                <input type="text" id="name" placeholder="Name" />
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field">
+                <input type="email" id="email" placeholder="Email" />
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="phone" placeholder="Phone Number" />
+                <label for="phone">Phone</label>
+              </div>
+              <div class="input-field">
+                <textarea
+                  class="materialize-textarea"
+                  id="message"
+                  placeholder="Message"
+                ></textarea>
+                <label for="message">Legal Question</label>
+              </div>
+              <input type="submit" value="Submit" class="btn blue-grey" />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-  <script src="http://maps.googleapis.com/maps/api/js"></script>
-  <script>
-    $(document).ready(function () {
-      // Custom JS & jQuery here
+    <!-- section : footer -->
 
+    <footer class="page-footer blue-grey darken-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>Location</h5>
+            <p>LawDeskIndia</p>
+            <p>
+              303,Third Level,KHCAA Chamber Kerala High Court
+              Compound,Ernakulam,Kochi,Kerala,India,Pin-682 031
+            </p>
+            <p>Email : mail@lawdeskindia.com</p>
+            <p>Phone : +91 484 2985303</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a href="#home" class="white-text">Home</a></li>
+              <li><a href="#about" class="white-text">About</a></li>
+              <li><a href="#service" class="white-text">Service</a></li>
+              <li><a href="#team" class="white-text">Team</a></li>
+              <li><a href="#clients" class="white-text">Clients</a></li>
+              <li><a href="#contact" class="white-text">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright blue-grey darrken-4">
+        <div class="container">
+          LawDeskIndia © 2018
+          <a class="grey-text text-lighten-4 right scrollspy" href="#home">
+            <i class="material-icons left">keyboard_arrow_up</i> Back To Top
+          </a>
+        </div>
+      </div>
+    </footer>
 
-      //counter
+    <!-- Import jQuery before materialize.js -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      $(document).ready(function() {
+        // Custom JS & jQuery here
 
-      $('.count').each(function () {
-        $(this).prop('Counter', 0).animate({
-          Counter: $(this).text()
-        }, {
-            duration: 3000,
-            easing: 'swing',
-            step: function (now) {
-              $(this).text(Math.ceil(now));
-            }
-          });
-      });
+        //counter
 
-
-      // init navbar
-
-      $('.button-collapse').sideNav();
-
-      //init scrollspy
-
-      $('.scrollspy').scrollSpy({
-        throttle: 50
-      });
-
-      //scroll fire
-      const option = [
-        {
-          selector: '.navbar-fixed', offset: 1500, callback: function () {
-            $('nav').removeClass('transparent').addClass('blue-grey darken-3');
-          }
-        }
-      ];
-
-
-      Materialize.scrollFire(option);
-
-      // carousel init
-      $('.carousel.carousel-slider').carousel({
-        fullWidth: true,
-        indicators: true
-      });
-
-
-      // google map
-      const position = [42.361145, -71.057083];
-      const centerPosition = [42.377815, -70.981133];
-
-      function showGoogleMaps() {
-        // Map positions
-        const latLng = new google.maps.LatLng(position[0], position[1]);
-        const centerLatLng = new google.maps.LatLng(centerPosition[0], centerPosition[1]);
-
-        // Map options
-        const mapOptions = {
-          zoom: 12,
-          streetViewControl: false,
-          scaleControl: true,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          center: centerLatLng
-        }
-
-        // Create map
-        map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
-
-        // Show Marker
-        marker = new google.maps.Marker({
-          position: latLng,
-          map: map,
-          draggable: false,
-          animation: google.maps.Animation.DROP
+        $('.count').each(function() {
+          $(this)
+            .prop('Counter', 0)
+            .animate(
+              {
+                Counter: $(this).text()
+              },
+              {
+                duration: 3000,
+                easing: 'swing',
+                step: function(now) {
+                  $(this).text(Math.ceil(now));
+                }
+              }
+            );
         });
-      }
 
-      // Maps event
-      google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+        // init navbar
 
+        $('.button-collapse').sideNav();
 
+        //init scrollspy
 
-    });
-  </script>
+        $('.scrollspy').scrollSpy({
+          throttle: 50
+        });
 
-  <script>
-    var typed = new Typed("#typed", {
-      strings: ["Patent issues", "Animal Bite", "Injury"],
-      smartBackspace: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      loop: true
-    });
-  </script>
-</body>
+        //scroll fire
+        const option = [
+          {
+            selector: '.navbar-fixed',
+            offset: 1500,
+            callback: function() {
+              $('nav')
+                .removeClass('transparent')
+                .addClass('blue-grey darken-3');
+            }
+          }
+        ];
 
+        Materialize.scrollFire(option);
+
+        // carousel init
+        $('.carousel.carousel-slider').carousel({
+          fullWidth: true,
+          indicators: true
+        });
+
+        // google map
+        const position = [42.361145, -71.057083];
+        const centerPosition = [42.377815, -70.981133];
+
+        function showGoogleMaps() {
+          // Map positions
+          const latLng = new google.maps.LatLng(position[0], position[1]);
+          const centerLatLng = new google.maps.LatLng(
+            centerPosition[0],
+            centerPosition[1]
+          );
+
+          // Map options
+          const mapOptions = {
+            zoom: 12,
+            streetViewControl: false,
+            scaleControl: true,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            center: centerLatLng
+          };
+
+          // Create map
+          map = new google.maps.Map(
+            document.getElementById('googlemap'),
+            mapOptions
+          );
+
+          // Show Marker
+          marker = new google.maps.Marker({
+            position: latLng,
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.DROP
+          });
+        }
+
+        // Maps event
+        google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+
+        // modal for practise area
+
+        $('.modal').modal();
+      });
+    </script>
+
+    <script>
+      var typed = new Typed('#typed', {
+        strings: ['Patent issues', 'Animal Bite', 'Injury'],
+        smartBackspace: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+      });
+    </script>
+  </body>
 </html>

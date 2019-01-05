@@ -222,6 +222,7 @@ span {
 
 .section-contact {
   position: relative;
+  background: url(../img/map.jpg);
 }
 
 .section-contact .card-panel {
